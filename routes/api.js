@@ -15,4 +15,5 @@ router.get('/getip', function(req, res, next) {
   res.send('{ip:'+ip+'}');
 });
 
+
 module.exports = router;
